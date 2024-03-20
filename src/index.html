@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the portfolio of Bashar Matar, Web Developer and UI Designer, featuring projects in Angular and Laravel, and a deep dive into web development and design solutions.">
+    <title>Bashar Matar</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/styles/input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</head>
+<body >   
+    <div class="background-image" >
+        <div class="absolute top-0 left-0 right-0 bottom-0 opacity-30" ></div>
+
+        <!-- header and nav -->
+        <header class=" text-white body-font w-full fixed top-0 z-50 " id="header">
+            
+            <div class="container mx-auto flex justify-between items-center p-5">
+            <a href="" class="flex title-font font-medium items-center text-white">
+                <span class="text-xl">Bashar Matar</span>
+            </a>
+            <nav class="hidden md:flex space-x-4">
+                <a href="#about" class="hover:text-gray-400">About Me</a>
+                <a href="#experience" class="hover:text-gray-400">Experience</a>
+                <a href="#work" class="hover:text-gray-400">Work</a>
+                <a href="#contact" class="hover:text-gray-400">Contact</a>
+            </nav>
+            <button class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-slate-700 focus:outline-none" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg width="20" height="20" fill="currentColor" class="h-8 w-8" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
+            </div>
+            <div class="md:hidden overflow-hidden transition-all ease-in-out duration-500" id="mobile-menu" style="max-height: 0;">
+                <div class="px-2 pt-2 pb-3 space-y-1 flex flex-col justify-end items-center">
+                    <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-400 hover:bg-slate-700">About Me</a>
+                    <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-400 hover:bg-slate-700">Experience</a>
+                    <a href="#work" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-400 hover:bg-slate-700">Work</a>
+                    <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-400 hover:bg-slate-700">Contact</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- hero section -->
+        <section class="relative flex flex-col justify-center items-center text-white pt-64 pb-32 " >
+            <div class="p-10 rounded-lg">
+                <h1 class="text-4xl md:text-7xl font-bold text-center">Hi, I'm <span id="typed-name"></span></h1>
+                <p class="text-xl md:text-2xl mt-4 text-center">Web Developer & UI Designer</p>
+                <div class="mt-4 flex flex-col md:flex-row justify-center items-center gap-4">
+                    <a href="./imgs/Bashar Resume.pdf" target="_blank" class="bg-white text-gray-800 px-4 py-2 rounded-lg font-bold transition-colors duration-300 ease-in-out hover:bg-gray-200">Download Resume</a>
+                    
+                </div>
+                <div class="flex justify-center gap-8 my-4">
+                    <!-- Linkedin -->
+                    <a href="https://www.linkedin.com/in/bashar-matar-a675362b7/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="hover:text-blue-600 transition-colors duration-300">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/Bashar403" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="hover:text-gray-400 transition-colors duration-300">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <main>
+
+          <!-- aboutme section -->
+          <section id="about" class="py-20 bg-gray-50 text-black">
+            <div class="container mx-auto px-4" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-10">About Me</h2>
+                <div class="flex flex-col items-center gap-10 md:space-x-6">
+                    <img src="./imgs/Me-_2_.webp" alt="Bashar Matar" class="w-48 h-48 md:w-64 md:h-64 rounded-full shadow-lg mb-6 md:mb-0">
+                    <div class="space-y-4">
+                        <p class="text-center  mx-auto text-lg mb-4">
+                            Hi, I'm <strong>Bashar Matar</strong>, a devoted Web Developer and UI Designer passionate about creating user-centric digital experiences.
+                        </p>
+                        <p class="text-center  mx-auto text-lg mb-4">
+                            My journey in tech began with a fascination for website mechanics, leading me to master crucial technologies and frameworks.
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-3">
+                            <div class="border border-gray-300 shadow-sm p-6 rounded-lg flex flex-col justify-between " data-aos="fade-right" data-aos-duration="1000">
+                                <div class="flex flex-col items-center md:items-start">
+                                    <i class="fas fa-code fa-2x mb-2"></i>
+                                    <h3 class="font-semibold">Front-End Development</h3>
+                                </div>
+                                <p>Proficient in Angular, HTML, CSS, and JavaScript</p>
+                            </div>
+                            <div class="border border-gray-300 shadow-sm p-6 rounded-lg flex flex-col justify-between " data-aos="fade-left" data-aos-duration="1000">
+                                <div class="flex flex-col items-center md:items-start">
+                                    <i class="fas fa-server fa-2x mb-2"></i>
+                                    <h3 class="font-semibold">Back-End </h3>
+                                </div>
+                                <p>Deep love for Laravel, crafting dynamic web applications</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <section id="experience" class="py-20 bg-gray-50 text-gray-800">
+            <div class="container mx-auto px-4" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-10">Experience</h2>
+                <p class="text-lg mb-12 text-center">
+                    Throughout my career, I've gained extensive experience with a wide range of technologies. Here are some of the key skills I've developed, organized by category:
+                </p>
+                
+                <div class="grid md:grid-cols-3 gap-12">
+                    <!-- Languages Category -->
+                    <div class="space-y-2" data-aos="fade-right" data-aos-duration="1000">
+                        <h3 class="text-2xl font-semibold mb-2">Languages</h3>
+                        <!-- HTML -->
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img src="./imgs/html-5-svgrepo-com (1).svg" alt="HTML" class="w-6 h-6">
+                                    <span>HTML</span>
+                                </div>
+                                <span class="text-xs">Advanced</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-gray-600 h-2.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <!-- CSS -->
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img src="./imgs/css-3-svgrepo-com.svg" alt="CSS" class="w-6 h-6">
+                                    <span>CSS</span>
+                                </div>
+                                <span class="text-xs">Advanced</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-gray-600 h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <!-- JavaScript -->
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img src="./imgs/javascript-svgrepo-com.svg" alt="JavaScript" class="w-6 h-6">
+                                    <span>JavaScript</span>
+                                </div>
+                                <span class="text-xs">Intermediate</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-gray-600 h-2.5 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <!-- PHP -->
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img src="./imgs/php-svgrepo-com.svg" alt="PHP" class="w-6 h-6">
+                                    <span>PHP</span>
+                                </div>
+                                <span class="text-xs">Experienced</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-gray-600 h-2.5 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <!-- TypeScript -->
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img src="./imgs/typescript-official-svgrepo-com.svg" alt="TypeScript" class="w-6 h-6">
+                                    <span>TypeScript</span>
+                                </div>
+                                <span class="text-xs">Intermediate</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-gray-600 h-2.5 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <!-- MySQL -->
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img src="./imgs/mysql-svgrepo-com.svg" alt="MySQL" class="w-6 h-6">
+                                    <span>MySQL</span>
+                                </div>
+                                <span class="text-xs">Advanced</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-gray-600 h-2.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Frameworks & Libraries Category -->
+                    <div class="space-y-2" data-aos="fade-right" data-aos-duration="1000">
+                        <h3 class="text-2xl font-semibold mb-2">Frameworks & Libraries</h3>
+                        <!-- Angular -->
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img src="./imgs/angular-svgrepo-com.svg" alt="Angular" class="w-6 h-6">
+                                    <span>Angular</span>
+                                </div>
+                                <span class="text-xs">Intermediate</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-gray-600 h-2.5 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <!-- jQuery -->
+            <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center gap-2">
+                        <img src="./imgs/jquery-svgrepo-com.svg" alt="jQuery" class="w-6 h-6">
+                        <span>jQuery</span>
+                    </div>
+                    <span class="text-xs">Intermediate</span>
+                </div>
+                <div class="bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-gray-600 h-2.5 rounded-full" style="width: 75%"></div>
+                </div>
+            </div>
+
+            <!-- Alpine.js -->
+            <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center gap-2">
+                        <img src="./imgs/alpinejs-2.svg" alt="Alpine.js" class="w-6 h-6">
+                        <span>Alpine.js</span>
+                    </div>
+                    <span class="text-xs">Beginner</span>
+                </div>
+                <div class="bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-gray-600 h-2.5 rounded-full" style="width: 50%"></div>
+                </div>
+            </div>
+
+            <!-- Bootstrap -->
+            <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center gap-2">
+                        <img src="./imgs/bootstrap-svgrepo-com.svg" alt="Bootstrap" class="w-6 h-6">
+                        <span>Bootstrap</span>
+                    </div>
+                    <span class="text-xs">Experienced</span>
+                </div>
+                <div class="bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-gray-600 h-2.5 rounded-full" style="width: 80%"></div>
+                </div>
+            </div>
+
+            <!-- Tailwind CSS -->
+            <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center gap-2">
+                        <img src="./imgs/tailwind-svgrepo-com.svg" alt="Tailwind CSS" class="w-6 h-6">
+                        <span>Tailwind CSS</span>
+                    </div>
+                    <span class="text-xs">Advanced</span>
+                </div>
+                <div class="bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-gray-600 h-2.5 rounded-full" style="width: 95%"></div>
+                </div>
+            </div>
+
+            <!-- Laravel -->
+            <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center gap-2">
+                        <img src="./imgs/laravel-svgrepo-com.svg" alt="Laravel" class="w-6 h-6">
+                        <span>Laravel</span>
+                    </div>
+                    <span class="text-xs">Advanced</span>
+                </div>
+                <div class="bg-gray-200 rounded-full h-2.5">
+                    <div class="bg-gray-600 h-2.5 rounded-full" style="width: 90%"></div>
+                </div>
+            </div>
+                    </div>
+        
+                    <!-- Tools & Other Category -->
+                    <div class="space-y-2" data-aos="fade-right" data-aos-duration="1000">
+                        <h3 class="text-2xl font-semibold mb-2">Tools & Other</h3>
+                        <!-- GitHub -->
+                        <div class="space-y-2">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img src="./imgs/github-svgrepo-com.svg" alt="GitHub" class="w-6 h-6">
+                                    <span>GitHub</span>
+                                </div>
+                                <span class="text-xs">Experienced</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-gray-600 h-2.5 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <!-- Additional tools like Docker, Jenkins, etc. -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Project Section -->
+        <section id="work" class="py-20 bg-slate-50 text-gray-800" data-aos="fade-up" data-aos-duration="1000">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Projects</h2>
+                <p class="text-center mx-auto text-lg mb-6">Exploring a selection of projects and assignments that highlight my development journey.</p>
+
+        
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10" data-aos="fade-right" data-aos-duration="1000">
+        
+                    <!-- Project Item -->
+                    <div class="project-item bg-gray-100 rounded-lg shadow-lg  space-y-4">
+                        <img src="./imgs/Chirp.webp" alt="overview of chirp" class="rounded-lg mb-5 p-1 ">
+                        <h3 class="text-xl font-semibold mb-3 pl-6">Chirp</h3>
+                        <p class="text-gray-700 mb-5 pl-6">A modern redesign of the 'Chirp' website using HTML, CSS, and JavaScript, focusing on responsiveness and best coding practices</p>
+                        <div class="flex space-x-4 pl-6">
+                            <!-- Tech Icons -->
+                            <img src="./imgs/html-5-svgrepo-com (1).svg" alt="HTML" class="w-6 h-6">
+                            <img src="./imgs/css-3-svgrepo-com.svg" alt="CSS" class="w-6 h-6">
+                            <img src="./imgs/javascript-svgrepo-com.svg" alt="JavaScript" class="w-6 h-6">
+                            <!-- Add more as needed -->
+                        </div>
+                        <!-- Buttons -->
+                        <div class="flex justify-center mt-4 pb-4">
+                            <a href="https://github.com/Bashar403/Chirp" target="_blank" rel="noopener noreferrer" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition-colors duration-300">GitHub</a>
+                            <a href="https://bashar403.github.io/Chirp/" target="_blank" rel="noopener noreferrer" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 transition-colors duration-300 ml-4">Live Demo</a>
+                        </div>
+                    </div>
+                    <!-- Repeat for each project -->
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-12 bg-gradient-to-r from-blue-500 to-teal-400 text-white">
+            <div class="container mx-auto px-4 text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="text-4xl font-bold mb-6">Ready to Dive In?</h2>
+                <p class="text-xl mb-8 mx-auto max-w-lg">Whether you have a question or just want to say hi, my inbox is always open. Let's create something extraordinary together!</p>
+                <a href="mailto:bashar.matar21@gmail.com" class="animate-bounce inline-flex items-center justify-center bg-white bg-opacity-20 text-white font-bold py-3 px-6 rounded-full hover:bg-opacity-30 transition-opacity duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v8m-4-4H8m8 4h4m-.867-4.867A2 2 0 0018 13V5a2 2 0 00-2-2H8a2 2 0 00-2 2v8a2 2 0 00.867 1.867M14.5 6.5l-5 5m5 0l-5-5"></path>
+                    </svg>
+                    Say Hello
+                </a>
+            </div>
+        </section>  
+    </main>
+
+    <footer class="bg-black text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <!-- Social Icons -->
+            <div class="flex justify-center gap-8 mb-6">
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/in/bashar-matar-a675362b7/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="hover:text-blue-600 transition-colors duration-300">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com/Bashar403" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="hover:text-gray-400 transition-colors duration-300">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/bashar.t.s/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="hover:text-pink-600 transition-colors duration-300">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/bashar.matar.52" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="hover:text-blue-800 transition-colors duration-300">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+            </div>
+    
+            <!-- Back to Top Button -->
+            <div class="mb-6">
+                <a href="#" aria-label="Back to Top" class="text-white hover:text-gray-300 transition-colors duration-300">
+                    <i class="fas fa-chevron-up fa-2x"></i>
+                </a>
+            </div>
+    
+            <!-- Footer Text -->
+            <p class="text-lg">
+                © <span id="year"></span> Bashar Matar
+            </p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

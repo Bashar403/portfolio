@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom CSS for smooth dropdown animation */
+#mobile-menu.open {
+    max-height: 20rem; /* Adjust based on the content size */
+    opacity: 1;
+  }
+  
+  #mobile-menu {
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-out;
+    opacity: 0;
+  }
+
+/* scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom CSS for background img */
+.background-image {
+  background-image: url('/src/imgs/tree-736882_1280.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+  
+
+.hero-section {
+  background-image: linear-gradient(to right, #06beb6, #48b1bf), url('path/to/your-hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+
+.bg-opacity-70 {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker overlay for better readability */
+}
+
+
+
+/* Font */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Targeting larger screens in portrait orientation */
+@media screen and (orientation: portrait) and (min-width: 768px) { /* Adjust min-width as needed */
+  .background-image {
+    height: 50vh;
+  }
+}
+
