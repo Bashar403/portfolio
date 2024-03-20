@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i ./styles/input.css -o ./dist/output.css --watch"
-  },
+    "build-css": "tailwindcss -i ./styles/input.css -o ./dist/output.css --watch",
+    "build": "npm run build-css && cp ./src/*.html ./dist/"
+  }
+  ,
   "keywords": [],
   "author": "",
   "license": "ISC",
