@@ -21,7 +21,7 @@ html {
 
 /* Custom CSS for background img */
 .background-image {
-  background-image: url('/src/imgs/tree-736882_1280.webp');
+  background-image: url('./src/imgs/tree-736882_1280.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
