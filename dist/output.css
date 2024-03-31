@@ -1158,6 +1158,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 /* Custom CSS for background img */
 
 .background-image {
